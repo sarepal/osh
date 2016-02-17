@@ -1,0 +1,5 @@
+digitaledition_jekylltheme/__init__.py
+digitaledition_jekylltheme.egg-info/PKG-INFO
+digitaledition_jekylltheme.egg-info/SOURCES.txt
+digitaledition_jekylltheme.egg-info/dependency_links.txt
+digitaledition_jekylltheme.egg-info/top_level.txt

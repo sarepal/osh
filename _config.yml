@@ -1,0 +1,71 @@
+author:
+  email: null
+  name: An Author
+  twitter: null
+  url: null
+baseurl: /osh
+collections:
+  annotations:
+    output: true
+    permalink: /annotations/:path/
+  volume_pages:
+    output: true
+    permalink: /pages/:path/
+defaults:
+- scope:
+    path: ''
+    type: volume_pages
+  values:
+    extra_js:
+    - deepzoom.js
+    - openseadragon.min.js
+    - volume-page.js
+    - hammer.min.js
+    layout: volume_page
+    short_label: p.
+- scope:
+    path: ''
+    type: annotations
+  values:
+    layout: annotation
+description: An annotated digital edition created with <a href="http://readux.library.emory.edu/">Readux</a>
+homepage_image: http://readuxout2in.library.emory.edu/books/emory:r8qzb/pages/emory:r8r2v/single-page/
+image_size:
+  page:
+    height: 810
+    width: 1000
+  small-thumbnail:
+    height: 81
+    width: 100
+  thumbnail:
+    height: 243
+    width: 300
+permalink: pretty
+publication_info:
+  author: B F White; E J King; J S James.
+  date: '2016'
+  editors:
+  - Jesse Pearlman Karlsberg
+  - Rebecca Sutton Koeser
+  tei_xml: tei.xml
+  title: 'Original sacred harp : containing a superior collection of standard melodies,
+    of odes, anthems, and church music, and hymns of high repute : rudiments, retaining
+    all valuable standard regulations, arr. with all modern up-to-date improvements.,
+    an annotated digital edition'
+relative_links: false
+show_annotation_author: true
+source_info:
+  author: B F White; E J King; J S James.
+  date: '1911'
+  pdf_url: http://readuxout2in.library.emory.edu/books/emory:r8qzb/pdf/
+  title: 'Original sacred harp : containing a superior collection of standard melodies,
+    of odes, anthems, and church music, and hymns of high repute : rudiments, retaining
+    all valuable standard regulations, arr. with all modern up-to-date improvements.'
+  url: http://readuxout2in.library.emory.edu/books/emory:r8qzb/
+  via_readux: true
+tagline: ', an annotated digital edition'
+title: 'Original sacred harp : containing a superior collection of standard melodies,
+  of odes, anthems, and church music, and hymns of high repute : rudiments, retaining
+  all valuable standard regulations, arr. with all modern up-to-date improvements.'
+url: http://sarepal.github.io/osh/
+version: 1.0.0
